@@ -1,0 +1,14 @@
+Authentication-Results: mx.cloudflare.net; dkim=pass header.d=produbanco.com header.s=s1; spf=softfail; dmarc=pass header.from=produbanco.com
+From: Produbanco <notificaciones@produbanco.com>
+To: negocio@gmail.com
+Subject: Transferencia recibida
+Date: Thu, 19 Nov 2026 12:00:00 -0500
+Message-ID: <produbanco@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Te informamos que has recibido una transferencia.
+Monto transferido: $ 40.00
+Remitente: Juan Torres
+Referencia del pago: V 1003
+Fecha: 19/11/2026

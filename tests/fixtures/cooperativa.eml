@@ -1,0 +1,13 @@
+Authentication-Results: mx.cloudflare.net; dkim=pass header.d=mushucruna.fin.ec header.s=s1; spf=pass
+From: Cooperativa Mushuc Runa <avisos@mushucruna.fin.ec>
+To: negocio@gmail.com
+Subject: Acreditación de transferencia
+Date: Thu, 19 Nov 2026 12:00:00 -0500
+Message-ID: <cooperativa@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Estimado socio, se ha acreditado una transferencia a su cuenta.
+Valor: $ 75,00
+Ordenante: PEDRO CHALCO
+Detalle: V-3010

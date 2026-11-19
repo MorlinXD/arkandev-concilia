@@ -1,0 +1,17 @@
+# MySQL local (misma familia que el de Hostinger). Alternativa: XAMPP/Laragon/MySQL instalado.
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: concilia-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: concilia
+      MYSQL_USER: concilia
+      MYSQL_PASSWORD: concilia
+    ports:
+      - "3306:3306"
+    volumes:
+      - concilia-data:/var/lib/mysql
+volumes:
+  concilia-data:

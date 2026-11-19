@@ -1,0 +1,12 @@
+name = "concilia-email-worker"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+[vars]
+# URL pública de la app en Hostinger (sin "/" al final)
+APP_URL = "https://concilia.arkandevstudio.com"
+# Opcional: buzón VERIFICADO en Email Routing para no perder correos si la app no responde
+# FALLBACK_FORWARD = "jean.morales@arkandevstudio.com"
+
+# El secreto NO va aquí. Configúralo con:
+#   npx wrangler secret put INGEST_SECRET

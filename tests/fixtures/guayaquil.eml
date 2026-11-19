@@ -1,0 +1,15 @@
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@bancoguayaquil.com header.s=bg; spf=pass
+From: Banco Guayaquil <alertas@bancoguayaquil.com>
+To: negocio@gmail.com
+Subject: Notificación: transferencia recibida
+Date: Thu, 19 Nov 2026 12:00:00 -0500
+Message-ID: <guayaquil@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Estimado cliente,
+Se ha acreditado una transferencia a tu cuenta.
+Valor: USD 1.250,00
+Ordenante: COMERCIAL LOPEZ S.A.
+Concepto: pedido v1002
+Documento: 998877

@@ -1,0 +1,10 @@
+Authentication-Results: mx.cloudflare.net; dkim=pass header.d=pichincha.com header.s=s1; spf=softfail; dmarc=pass header.from=pichincha.com
+From: Banco Pichincha <promociones@pichincha.com>
+To: negocio@gmail.com
+Subject: ¡Aprovecha nuestras tasas!
+Date: Thu, 19 Nov 2026 12:00:00 -0500
+Message-ID: <publicidad@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Conoce nuestros créditos con las mejores tasas del mercado.

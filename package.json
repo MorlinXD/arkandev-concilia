@@ -1,0 +1,47 @@
+{
+  "name": "arkandev-concilia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node scripts/migrate.mjs && next start",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:studio": "drizzle-kit studio",
+    "test": "vitest run tests/parsers.test.ts tests/reconcile.test.ts tests/inbound.test.ts",
+    "test:e2e": "vitest run tests/api.e2e.test.ts",
+    "test:all": "vitest run",
+    "email:send": "node scripts/send-email.mjs",
+    "db:migrate": "node scripts/migrate.mjs",
+    "start:only": "next start"
+  },
+  "dependencies": {
+    "better-auth": "^1.7.26",
+    "drizzle-orm": "^0.45.4",
+    "imapflow": "^2.12.1",
+    "lucide-react": "^1.76.0",
+    "mailauth": "^8.1.0",
+    "mysql2": "^3.24.6",
+    "next": "^15.5.29",
+    "postal-mime": "^4.2.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "dotenv": "^18.0.10",
+    "drizzle-kit": "^0.31.11",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3",
+    "vite-tsconfig-paths": "^6.1.1",
+    "vitest": "^3.2.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

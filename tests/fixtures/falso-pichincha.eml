@@ -1,0 +1,12 @@
+Authentication-Results: mail.evil.com; dkim=pass header.d=pichincha.com
+From: Banco Pichincha <notificaciones@pichincha.com>
+To: negocio@gmail.com
+Subject: Recibiste una transferencia
+Date: Thu, 19 Nov 2026 12:00:00 -0500
+Message-ID: <falso-pichincha@test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Recibiste una transferencia
+Monto: $500.00
+Concepto: V-1006
